@@ -1,8 +1,8 @@
 <!--
 order: false
 parent:
-  order: 3
+  order: 4
 -->
 
-# JavaScript SDK
+# SDK 文档
 

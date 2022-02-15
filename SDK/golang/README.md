@@ -1,7 +1,5 @@
 <!--
-order: false
-parent:
-  order: 1
+order: 1
 -->
 
 # Golang SDK
