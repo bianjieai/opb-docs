@@ -3,16 +3,14 @@ order: 1
 -->
 # 快速开始
 ## 流程指引
-### 一、注册账号
+### 1、注册账号
 - 注册账号： [https://www.bsnbase.com/static/tmpFile/bzsc/helper/4-1.html](https://www.bsnbase.com/static/tmpFile/bzsc/helper/4-1.html) 
-- 链账户的创建： [https://www.bsnbase.com/static/tmpFile/bzsc/openper/7-2-1.html](https://www.bsnbase.com/static/tmpFile/bzsc/openper/7-2-1.html) 
+- 链账户的创建： [https://www.bsnbase.com/static/tmpFile/bzsc/openper/7-2-1.html](https://www.bsnbase.com/static/tmpFile/bzsc/openper/7-2-1.html)
 （注意托管账户和非托管账户的区别及使用）
-### 二、获取项目 ID 和项目 key
+### 2、获取项目 ID 和项目 key
 - 创建项目： [https://www.bsnbase.com/static/tmpFile/bzsc/openper/7-2-2.html](https://www.bsnbase.com/static/tmpFile/bzsc/openper/7-2-2.html)
-### 三、选择您连接文昌链的应用端语言对应的 SDK：
-- SDK-GO 地址：https://github.com/bianjieai/opb-sdk-go
-- SDK-Java 地址：https://github.com/bianjieai/opb-sdk-java
-### 四、配置测试及开发环境
+
+### 3、配置测试及开发环境
 1、接入IRITA测试网
 
 初始化SDK配置：
@@ -39,8 +37,11 @@ RPCAddr: https://opbningxia.bsngate.com:18602/api/[project_key]/rpc
 wsAddr:wss://opbningxia.bsngate.com:18602/api/[project_key]/ws
 gRPCAddr: opbningxia.bsngate.com:18603                                                                     
 ```
+### 4、选择您连接文昌链的应用端语言对应的 SDK：
+- SDK-GO 地址：https://github.com/bianjieai/opb-sdk-go
+- SDK-Java 地址：https://github.com/bianjieai/opb-sdk-java
 
-### 五、NFT 技术文档
+### 5、NFT 技术文档
 - NFT 技术模块简介：
 
 https://irita.bianjie.ai/docs/core_modules/nft.html
@@ -53,12 +54,12 @@ https://irita.bianjie.ai/docs/quick_start/nft.html
 
 https://irita.bianjie.ai/docs/console/modules/nft.html
 
-### 六、链信息和区块、交易查询
+### 6、链信息和区块、交易查询
 文昌链区块链浏览器已正式开放，链信息、区块信息和交易信息查询可访问以下链接：
 
 https://explorer.wenchang.bianjie.ai
 
-### 七、链上随机数
+### 7、链上随机数
 
 ### PRNG
 
@@ -94,13 +95,13 @@ rand = seed mod 10^20 / 10^20
 
 ## 网络
 
-- 主网：文昌链主网，即生产网络，主网 API 网关需要鉴权访问并计费（了解更多）；
-- 测试网：为了方便应用服务方开发和测试，文昌链提供了免费的测试网和对应的 API 网关（了解更多）。
+- 主网：文昌链主网，即生产网络，主网 API 网关需要鉴权访问并计费；  [了解更多](./mainnet.md)
+- 测试网：为了方便应用服务方开发和测试，文昌链提供了免费的测试网和对应的 API 网关。  [了解更多](./testnet.md)
 
 ## SDK
 
 文昌链提供多语言的 API 网关 SDK，以满足不同应用服务方的开发需求：
 
-- Golang SDK
-- Java SDK
+- [Golang SDK]()
+- [Java SDK]()
 - JavaScript SDK（Coming Soon）
