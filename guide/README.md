@@ -1,11 +1,11 @@
 <!--
 order: false
 parent:
-  order: 1
+  order: 2
 -->
 
-# 快速开始
+# 开发指南
 
-1. [概览](./overview.md)
+1. [快速开始](./overview.md)
 2. [主网](./mainnet.md)
 3. [测试网](./testnet.md)

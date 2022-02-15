@@ -1,8 +1,8 @@
 <!--
 order: false
 parent:
-  order: 3
+  order: 1
 -->
 
-# JavaScript SDK
+# 文昌链概述
 
